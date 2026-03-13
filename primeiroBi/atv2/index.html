@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Crie sua conta</legend>
+            <br>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" >
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" maxlength="8">
+            <br>
+        </fieldset>
+
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino" >
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino">
+            <br>
+            <label for="biografia">Biografia</label>
+            <br>
+            <textarea name="biografia" id="biografia" placeholder="digite sua biografia" rows="2"></textarea>
+        </fieldset>
+        <br>
+        <label for="termos">
+            <input type="checkbox" name="termos" id="termos" required>
+            Concordo com os <a href="#" target="_blank">termos de uso</a>
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
